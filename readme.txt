@@ -1,9 +1,9 @@
 === Glacial Shortcodes ===
-Contributors: Anthony Marvin
+Contributors: Anthony Marvin, Darrel Grosvalet
 Tags: shortcodes
 Requires at least: 4.0.0
 Tested up to: 4.8.0
-Stable Tag: 1.04
+Stable Tag: 1.05
 
 Glacial Shortcodes is a small suite of tools designed to make client and project managers lives easier.
 
@@ -33,9 +33,16 @@ Glacial Shortcodes is a small suite of tools designed to make client and project
 [g_2] - Defines a 2 wide section column. Takes up 2/12 of a row. Translates to <div class="g-col g-col-2">
 [g_1] - Defines a 1 wide section column. Takes up 1/12 of a row. Translates to <div class="g-col g-col-1">
 
+[g_flex] - Defines a flexible box with the items centered. Translates to <div class="g-flex">
+[g_flex_start] - Defines a flexible box with the items set to the start of the box. Translates to <div class="g-flex begin">
+[g_flex_end] - Defines a flexible box with the items set to the end of the box.  Translates to <div class="g-flex end">
+[g_video] - Centers and makes sure the video is responsive to an extent. Translates to <div class="g-video">
+
 == Screenshots ==
 
 == Changelog ==
+= 1.05 =
+* Added flexbox items and responsive video div classes
 = 1.04 =
 * Updated and reformatted readme
 = 1.03 = 

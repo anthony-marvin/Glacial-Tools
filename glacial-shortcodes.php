@@ -3,7 +3,7 @@
 Plugin Name: Glacial Shortcodes
 Plugin URI: https://github.com/anthony-marvin/glacial-shortcodes
 Description: A series of codes designed to help you better layout pages.
-Version: 1.04
+Version: 1.05
 Author: Anthony Marvin
 Author URI: http://www.glacial.com
 License: 
@@ -30,6 +30,10 @@ add_shortcode( 'g_4', 'glacial_4' );
 add_shortcode( 'g_3', 'glacial_3' );
 add_shortcode( 'g_2', 'glacial_2' );
 add_shortcode( 'g_1', 'glacial_1' );
+add_shortcode( 'g_flex', 'glacial_flex' );
+add_shortcode( 'g_flex_begin', 'glacial_flex_begin' );
+add_shortcode( 'g_flex_end', 'glacial_flex_end' );
+add_shortcode( 'g_video', 'glacial_responsive_video' );
 add_shortcode( 'g-12', 'glacial_12' );
 add_shortcode( 'g-11', 'glacial_11' );
 add_shortcode( 'g-10', 'glacial_10' );
@@ -42,8 +46,13 @@ add_shortcode( 'g-4', 'glacial_4' );
 add_shortcode( 'g-3', 'glacial_3' );
 add_shortcode( 'g-2', 'glacial_2' );
 add_shortcode( 'g-1', 'glacial_1' );
-}
+add_shortcode( 'g-flex', 'glacial_flex' );
+add_shortcode( 'g-flex-begin', 'glacial_flex_begin' );
+add_shortcode( 'g-flex-end', 'glacial_flex_end' );
+add_shortcode( 'g-video', 'glacial_responsive_video' );
+//add_shortcode( '', '' );
 
+}
 add_action( 'init', 'register_glacial_shortcodes' );
 
 function glacial_row( $atts = '', $content = null ) {
@@ -112,4 +121,25 @@ function glacial_1( $atts = '', $content = null) {
 	$content = '<div class="g-col g-col-1">' . do_shortcode( $content ) . '</div>';
 	return $content;
 }
+function glacial_responsive_video( $atts = '', content = null ) {
+	$content = wpautop( trim( $content ) );
+	$content = '<div class="g-resp-video">' . do_shortcode( $content ) . '</div>';
+	return $content;
+}
+function glacial_flex( $atts = '', content = null ) {
+	$content = wpautop( trim( $content ) );
+	$content = '<div class="g-flex">' . do_shortcode( $content ) . '</div>';
+	return $content;
+}
+function glacial_flex_begin( $atts = '', content = null ) {
+	$content = wpautop( trim( $content ) );
+	$content = '<div class="g-flex begin">' . do_shortcode( $content ) . '</div>';
+	return $content;
+}
+function glacial_flex_end( $atts = '', content = null ) {
+	$content = wpautop( trim( $content ) );
+	$content = '<div class="g-flex end">' . do_shortcode( $content ) . '</div>';
+	return $content;
+}
+
 ?>

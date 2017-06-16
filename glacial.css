@@ -58,6 +58,37 @@
 .g-col-12 {
   width: 100%;
 }
+/* Flex box model for pages. */
+.g-flex{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+          align-items: center;
+}
+.g-flex.begin {
+  -webkit-box-pack:start;
+      -ms-flex-pack:start;
+          justify-content:flex-start;
+}
+.g-flex.end {
+  -webkit-box-pack:end;
+      -ms-flex-pack:end;
+          justify-content:flex-end;
+}
+/* Responsive Video */
+.g-resp-video {
+	max-width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/* Media Queries */
 @media screen and (max-width: 767px) {
   .g-row {
     margin-left: 0;
