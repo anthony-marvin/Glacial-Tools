@@ -3,7 +3,7 @@
 Plugin Name: Glacial Shortcodes
 Plugin URI: https://github.com/anthony-marvin/glacial-shortcodes
 Description: A series of codes designed to help you better layout pages.
-Version: 1.05
+Version: 1.05a
 Author: Anthony Marvin
 Author URI: http://www.glacial.com
 License: 
@@ -121,22 +121,22 @@ function glacial_1( $atts = '', $content = null) {
 	$content = '<div class="g-col g-col-1">' . do_shortcode( $content ) . '</div>';
 	return $content;
 }
-function glacial_responsive_video( $atts = '', content = null ) {
+function glacial_responsive_video( $atts = '', $content = null ) {
 	$content = wpautop( trim( $content ) );
 	$content = '<div class="g-resp-video">' . do_shortcode( $content ) . '</div>';
 	return $content;
 }
-function glacial_flex( $atts = '', content = null ) {
+function glacial_flex( $atts = '', $content = null ) {
 	$content = wpautop( trim( $content ) );
 	$content = '<div class="g-flex">' . do_shortcode( $content ) . '</div>';
 	return $content;
 }
-function glacial_flex_begin( $atts = '', content = null ) {
+function glacial_flex_begin( $atts = '', $content = null ) {
 	$content = wpautop( trim( $content ) );
 	$content = '<div class="g-flex begin">' . do_shortcode( $content ) . '</div>';
 	return $content;
 }
-function glacial_flex_end( $atts = '', content = null ) {
+function glacial_flex_end( $atts = '', $content = null ) {
 	$content = wpautop( trim( $content ) );
 	$content = '<div class="g-flex end">' . do_shortcode( $content ) . '</div>';
 	return $content;
