@@ -1,15 +1,24 @@
-Welcome to the Glacial Shortcodes readme!
+=== Glacial Shortcodes ===
+Contributors: Anthony Marvin
+Tags: shortcodes
+Requires at least: 4.0.0
+Tested up to: 4.8.0
+Stable Tag: 1.04
 
-1. Using Shortcodes
-2. Codes and what they do!
+Glacial Shortcodes is a small suite of tools designed to make client and project managers lives easier.
 
+== Description ==
 
-1. Using Shortcodes
-  The best way to use shortcodes is to type them like this [your shortcode]. Glacial shortcodes are very simple and easy to use. To use them, simply type [g_*] and to finish using a glacial shortcode, type [/g_*], where the * are the particular code you want. Glacial Shortcodes are based on responsive, 12 section grid layouts, much like bootstrap and webflow are based on.
-1a. EX
-    [g_row][g_10]*content*[/g_10][g_2]*content*[/g_2][/g_row]
+== Installation ==
+  Simply unzip the folder into the plugins space on your Wordpress Installation, then activate it through the options menu.
   
-2. Codes and what they do!
+== Frequently Asked Questions ==
+= Using Shortcodes
+  The best way to use shortcodes is to type them like this [your shortcode]. Glacial shortcodes are very simple and easy to use. To use them, simply type [g_*] and to finish using a glacial shortcode, type [/g_*], where the * are the particular code you want. Glacial Shortcodes are based on responsive, 12 section grid layouts, much like bootstrap and webflow are based on.
+= EX
+    [g_row][g_10]*content*[/g_10][g_2]*content*[/g_2][/g_row]
+
+= Codes and what they do!
 [g_row] - Defines a row. Translates to <div class="g-row">
 [g_12] - Defines a 12 wide section column. Takes up the full row. Translates to <div class="g-col g-col-12">
 [g_11] - Defines an 11 wide section column. Takes up 11/12 of a row. Translates to <div class="g-col g-col-11">
@@ -23,3 +32,19 @@ Welcome to the Glacial Shortcodes readme!
 [g_3] - Defines a 3 wide section column. Takes up 3/12 of a row. Translates to <div class="g-col g-col-3">
 [g_2] - Defines a 2 wide section column. Takes up 2/12 of a row. Translates to <div class="g-col g-col-2">
 [g_1] - Defines a 1 wide section column. Takes up 1/12 of a row. Translates to <div class="g-col g-col-1">
+
+== Screenshots ==
+
+== Changelog ==
+= 1.04 =
+* Updated and reformatted readme
+= 1.03 = 
+* Added redundant codes to make sure that the shortcodes could be used properly.
+
+= 1.02 = 
+* Cleaned up code.
+* Added Readme File.
+= 1.01 =
+* Added a register function to the shortcodes to ensure that they load correctly.
+= 1.0 =
+* Initial Commit
