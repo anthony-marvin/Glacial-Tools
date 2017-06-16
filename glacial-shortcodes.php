@@ -15,6 +15,8 @@ wp_register_style( 'glacial', $g_dir . 'glacial.css', array(), '', 'all' ); // C
 wp_enqueue_style('glacial');
   }
 add_action('init', 'add_styles');
+function register_glacial_shortcodes()
+{
 add_shortcode( 'g_row', 'glacial_row' );
 add_shortcode( 'g_12', 'glacial_12' );
 add_shortcode( 'g_11', 'glacial_11' );
@@ -28,7 +30,8 @@ add_shortcode( 'g_4', 'glacial_4' );
 add_shortcode( 'g_3', 'glacial_3' );
 add_shortcode( 'g_2', 'glacial_2' );
 add_shortcode( 'g_1', 'glacial_1' );
-
+}
+add_action('init', 'register_glacial_shortcodes');
 function glacial_row( $atts = '', $content = null ) {
 	$content = str_replace('<br />', '', $content);
 	$content = '<div class="g-row">' . do_shortcode( $content ) . '</div>';
