@@ -1,0 +1,76 @@
+.g-row:before,
+.g-row:after {
+  content: " ";
+  display: table;
+}
+.g-row:after {
+  clear: both;
+}
+.g-row .g-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.g-col {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.g-col .g-col {
+  padding-left: 0;
+  padding-right: 0;
+}
+.g-col-1 {
+  width: 8.33333333%;
+}
+.g-col-2 {
+  width: 16.66666667%;
+}
+.g-col-3 {
+  width: 25%;
+}
+.g-col-4 {
+  width: 33.33333333%;
+}
+.g-col-5 {
+  width: 41.66666667%;
+}
+.g-col-6 {
+  width: 50%;
+}
+.g-col-7 {
+  width: 58.33333333%;
+}
+.g-col-8 {
+  width: 66.66666667%;
+}
+.g-col-9 {
+  width: 75%;
+}
+.g-col-10 {
+  width: 83.33333333%;
+}
+.g-col-11 {
+  width: 91.66666667%;
+}
+.g-col-12 {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .g-row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .g-col {
+    width: 100%;
+    left: auto;
+    right: auto;
+  }
+}
+@media screen and (max-width: 479px) {
+  .g-col {
+    width: 100%;
+  }
+}
