@@ -45,6 +45,15 @@ QTags.addButton( 'g-row', 'g-row', '[g-row]', '[/g-row]', '', 'container row to 
 QTags.addButton( 'g-12', 'g-12', '[g-12]', '[/g-12]', '', '12 wide column');
 QTags.addButton( 'g-11', 'g-11', '[g-11]', '[/g-11]', '',  '11 wide column');
 QTags.addButton( 'g-10', 'g-10', '[g-10]', '[/g-10]', '', '10 wide column');
+QTags.addButton( 'g-9', 'g-9', '[g-9]', '[/g-9]', '', '9 wide column');
+QTags.addButton( 'g-8', 'g-8', '[g-8]', '[/g-8]', '', '8 wide column');
+QTags.addButton( 'g-7', 'g-7', '[g-7]', '[/g-7]', '', '7 wide column');
+QTags.addButton( 'g-6', 'g-6', '[g-6]', '[/g-6]', '', '6 wide column');
+QTags.addButton( 'g-5', 'g-5', '[g-5]', '[/g-5]', '', '5 wide column');
+QTags.addButton( 'g-4', 'g-4', '[g-4]', '[/g-4]', '', '4 wide column');
+QTags.addButton( 'g-3', 'g-3', '[g-3]', '[/g-3]', '', '3 wide column');
+QTags.addButton( 'g-2', 'g-2', '[g-2]', '[/g-2]', '', '2 wide column');
+QTags.addButton( 'g-1', 'g-1', '[g-1]', '[/g-1]', '', '1 wide column');
 </script>
 <?
 }
