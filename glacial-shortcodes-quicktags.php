@@ -17,6 +17,7 @@ add_shortcode( 'g_flex', 'glacial_flex' );
 add_shortcode( 'g_flex_begin', 'glacial_flex_begin' );
 add_shortcode( 'g_flex_end', 'glacial_flex_end' );
 add_shortcode( 'g_video', 'glacial_responsive_video' );
+add_shortcode( 'g-row', 'glacial_row' );
 add_shortcode( 'g-12', 'glacial_12' );
 add_shortcode( 'g-11', 'glacial_11' );
 add_shortcode( 'g-10', 'glacial_10' );
@@ -34,5 +35,18 @@ add_shortcode( 'g-flex-begin', 'glacial_flex_begin' );
 add_shortcode( 'g-flex-end', 'glacial_flex_end' );
 add_shortcode( 'g-video', 'glacial_responsive_video' );
 //add_shortcode( '', '' );
+}
+function add_glacial_scripts() {
+if ( wp_script_is( 'quicktags' ) ) {
+	?>
+<script type="text/javascript">
+QTags.addButton( 'g-row', 'g-row', '[g-row]', '[/g-row]', '', 'container row to hold your columns' );
+// QTags.addButton('id', 'title', 'opening tag', 'closing tag', 'title/description')
+QTags.addButton( 'g-12', 'g-12', '[g-12]', '[/g-12]', '', '12 wide column');
+QTags.addButton( 'g-11', 'g-11', '[g-11]', '[/g-11]', '',  '11 wide column');
+QTags.addButton( 'g-10', 'g-10', '[g-10]', '[/g-10]', '', '10 wide column');
+</script>
+<?
+}
 }
 ?>
