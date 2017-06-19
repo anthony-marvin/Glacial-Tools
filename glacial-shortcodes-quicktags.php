@@ -40,7 +40,7 @@ function add_glacial_scripts() {
 if ( wp_script_is( 'quicktags' ) ) {
 	?>
 <script type="text/javascript">
-QTags.addButton( 'g-row', 'g-row', '[g-row]', '[/g-row]', '', 'container row to hold your columns' );
+QTags.addButton( 'g-row', 'g-row', '[g-row]', '[/g-row]', '', 'container row to hold columns' );
 // QTags.addButton('id', 'title', 'opening tag', 'closing tag', 'title/description')
 QTags.addButton( 'g-12', 'g-12', '[g-12]', '[/g-12]', '', '12 wide column');
 QTags.addButton( 'g-11', 'g-11', '[g-11]', '[/g-11]', '',  '11 wide column');
