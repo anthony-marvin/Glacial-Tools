@@ -41,6 +41,8 @@ Glacial Shortcodes is a small suite of tools designed to make client and project
 == Screenshots ==
 
 == Changelog ==
+=1.06 =
+* Maintenance update. Updated the files to make sure that it could be better maintained in the future.
 = 1.05 =
 * Added flexbox items and responsive video div classes
 = 1.04 =
