@@ -54,6 +54,10 @@ QTags.addButton( 'g-4', 'g-4', '[g-4]', '[/g-4]', '', '4 wide column');
 QTags.addButton( 'g-3', 'g-3', '[g-3]', '[/g-3]', '', '3 wide column');
 QTags.addButton( 'g-2', 'g-2', '[g-2]', '[/g-2]', '', '2 wide column');
 QTags.addButton( 'g-1', 'g-1', '[g-1]', '[/g-1]', '', '1 wide column');
+QTags.addButton( 'g-flex', 'g-flex', '[g-flex]', '[/g-flex]', '', 'Creates a flexible container. Centers content inside flex box.');
+QTags.addButton( 'g-flex-begin', 'g-flex-begin', '[g-flex-begin]', '[/g-flex-begin]', '', 'Creates a flexible container. Items start at the beginning of flex box.');
+QTags.addButton( 'g-flex-end', 'g-flex-end', '[g-flex-end]', '[/g-flex-end]', '', 'Creates a flexible container. Items start at the end of flex box.');
+QTags.addButton( 'g-video', 'g-video', '[g-video]', '[/g-video]', '', 'Creates a responsive div to hold your video.');
 </script>
 <?
 }
