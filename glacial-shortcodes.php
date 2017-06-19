@@ -3,7 +3,7 @@
 Plugin Name: Glacial Shortcodes
 Plugin URI: https://github.com/anthony-marvin/glacial-shortcodes
 Description: A series of codes designed to help you better layout pages.
-Version: 1.05a
+Version: 1.06
 Author: Anthony Marvin
 Author URI: http://www.glacial.com
 License: 
