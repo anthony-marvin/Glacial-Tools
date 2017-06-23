@@ -4,6 +4,7 @@ Tags: shortcodes
 Requires at least: 4.0.0
 Tested up to: 4.8.0
 Stable Tag: 1.05a
+Stable Tag: 2.0
 
 Glacial Shortcodes is a small suite of tools designed to make client and project managers lives easier.
 
@@ -42,6 +43,9 @@ Glacial Shortcodes is a small suite of tools designed to make client and project
 
 == Changelog ==
 =1.06 =
+= 2.0 =
+* Renamed to Glacial Tools
+= 1.06 =
 * Maintenance update. Updated the files to make sure that it could be better maintained in the future.
 = 1.05 =
 * Added flexbox items and responsive video div classes
