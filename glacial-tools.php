@@ -3,7 +3,7 @@
 Plugin Name: Glacial Tools
 Plugin URI: https://github.com/anthony-marvin/Glacial-Tools
 Description: A series of codes designed to help you better layout pages.
-Version: 1.06
+Version: 2.00
 Author: Anthony Marvin
 Author URI: http://www.glacial.com
 License: 

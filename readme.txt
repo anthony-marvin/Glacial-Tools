@@ -3,7 +3,6 @@ Contributors: Anthony Marvin, Darrel Grosvalet
 Tags: shortcodes
 Requires at least: 4.0.0
 Tested up to: 4.8.0
-Stable Tag: 1.05a
 Stable Tag: 2.0 
 
 Glacial Shortcodes is a small suite of tools designed to make client and project managers lives easier.
@@ -43,7 +42,8 @@ Glacial Shortcodes is a small suite of tools designed to make client and project
 
 == Changelog ==
 = 2.0 =
-* Renamed to Glacial Tools
+* Renamed to Glacial Tools.
+* Merged development branch to Master on Github. We're changing up our development process.
 = 1.06 =
 * Maintenance update. Updated the files to make sure that it could be better maintained in the future.
 = 1.05 =
