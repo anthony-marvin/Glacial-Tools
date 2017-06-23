@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Glacial Shortcodes
+Plugin Name: Glacial Tools
 Plugin URI: https://github.com/anthony-marvin/glacial-shortcodes
 Description: A series of codes designed to help you better layout pages.
 Version: 1.06
@@ -10,7 +10,7 @@ License:
 */
 
 function glacial_includes() {
-require_once 'glacial-shortcodes-quicktags.php';
+require_once 'glacial-tools-quicktags.php';
 require_once 'glacial-shortcode-functions.php';
 }
 function add_styles() {
@@ -21,4 +21,5 @@ function add_styles() {
 add_action('init', 'add_styles');
 add_action('init', 'glacial_includes');
 add_action( 'init', 'register_glacial_shortcodes' );
+add_action( 'init', 'add_glacial_quicktags' );
 ?>

@@ -36,7 +36,7 @@ add_shortcode( 'g-flex-end', 'glacial_flex_end' );
 add_shortcode( 'g-video', 'glacial_responsive_video' );
 //add_shortcode( '', '' );
 }
-function add_glacial_scripts() {
+function add_glacial_quicktags() {
 if ( wp_script_is( 'quicktags' ) ) {
 	?>
 <script type="text/javascript">
