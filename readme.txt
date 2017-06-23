@@ -42,7 +42,6 @@ Glacial Shortcodes is a small suite of tools designed to make client and project
 == Screenshots ==
 
 == Changelog ==
-=1.06 =
 = 2.0 =
 * Renamed to Glacial Tools
 = 1.06 =
