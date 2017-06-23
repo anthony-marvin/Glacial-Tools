@@ -10,7 +10,7 @@ License:
 */
 
 function glacial_includes() {
-require_once 'glacial-tools-quicktags.php';
+require_once 'glacial-shortcodes-quicktags.php';
 require_once 'glacial-shortcode-functions.php';
 }
 function add_styles() {
