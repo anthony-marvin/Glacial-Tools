@@ -21,4 +21,5 @@ function add_styles() {
 add_action('init', 'add_styles');
 add_action('init', 'glacial_includes');
 add_action( 'init', 'register_glacial_shortcodes' );
+add_action( 'init', 'add_glacial_quicktags' );
 ?>
